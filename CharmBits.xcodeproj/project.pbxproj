@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55D4EBCE1A2D13A20008AC5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBCD1A2D13A20008AC5F /* main.m */; };
+		55D4EBD11A2D13A20008AC5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBD01A2D13A20008AC5F /* AppDelegate.m */; };
+		55D4EBD41A2D13A20008AC5F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBD31A2D13A20008AC5F /* FirstViewController.m */; };
+		55D4EBD71A2D13A20008AC5F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBD61A2D13A20008AC5F /* SecondViewController.m */; };
+		55D4EBDA1A2D13A20008AC5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D4EBD81A2D13A20008AC5F /* Main.storyboard */; };
+		55D4EBDC1A2D13A20008AC5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D4EBDB1A2D13A20008AC5F /* Images.xcassets */; };
+		55D4EBDF1A2D13A20008AC5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D4EBDD1A2D13A20008AC5F /* LaunchScreen.xib */; };
+		55D4EBEB1A2D13A20008AC5F /* CharmBitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBEA1A2D13A20008AC5F /* CharmBitsTests.m */; };
+		55D4EBF51A2D13B50008AC5F /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D4EBF41A2D13B50008AC5F /* opencv2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55D4EBE51A2D13A20008AC5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55D4EBC01A2D13A20008AC5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55D4EBC71A2D13A20008AC5F;
+			remoteInfo = CharmBits;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55D4EBC81A2D13A20008AC5F /* CharmBits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharmBits.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D4EBCC1A2D13A20008AC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D4EBCD1A2D13A20008AC5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55D4EBCF1A2D13A20008AC5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55D4EBD01A2D13A20008AC5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55D4EBD21A2D13A20008AC5F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		55D4EBD31A2D13A20008AC5F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		55D4EBD51A2D13A20008AC5F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		55D4EBD61A2D13A20008AC5F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		55D4EBD91A2D13A20008AC5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55D4EBDB1A2D13A20008AC5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55D4EBDE1A2D13A20008AC5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		55D4EBE41A2D13A20008AC5F /* CharmBitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharmBitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D4EBE91A2D13A20008AC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D4EBEA1A2D13A20008AC5F /* CharmBitsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharmBitsTests.m; sourceTree = "<group>"; };
+		55D4EBF41A2D13B50008AC5F /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../Downloads/opencv2.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55D4EBC51A2D13A20008AC5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D4EBF51A2D13B50008AC5F /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D4EBE11A2D13A20008AC5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55D4EBBF1A2D13A20008AC5F = {
+			isa = PBXGroup;
+			children = (
+				55D4EBF41A2D13B50008AC5F /* opencv2.framework */,
+				55D4EBCA1A2D13A20008AC5F /* CharmBits */,
+				55D4EBE71A2D13A20008AC5F /* CharmBitsTests */,
+				55D4EBC91A2D13A20008AC5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55D4EBC91A2D13A20008AC5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55D4EBC81A2D13A20008AC5F /* CharmBits.app */,
+				55D4EBE41A2D13A20008AC5F /* CharmBitsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55D4EBCA1A2D13A20008AC5F /* CharmBits */ = {
+			isa = PBXGroup;
+			children = (
+				55D4EBCF1A2D13A20008AC5F /* AppDelegate.h */,
+				55D4EBD01A2D13A20008AC5F /* AppDelegate.m */,
+				55D4EBD21A2D13A20008AC5F /* FirstViewController.h */,
+				55D4EBD31A2D13A20008AC5F /* FirstViewController.m */,
+				55D4EBD51A2D13A20008AC5F /* SecondViewController.h */,
+				55D4EBD61A2D13A20008AC5F /* SecondViewController.m */,
+				55D4EBD81A2D13A20008AC5F /* Main.storyboard */,
+				55D4EBDB1A2D13A20008AC5F /* Images.xcassets */,
+				55D4EBDD1A2D13A20008AC5F /* LaunchScreen.xib */,
+				55D4EBCB1A2D13A20008AC5F /* Supporting Files */,
+			);
+			path = CharmBits;
+			sourceTree = "<group>";
+		};
+		55D4EBCB1A2D13A20008AC5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55D4EBCC1A2D13A20008AC5F /* Info.plist */,
+				55D4EBCD1A2D13A20008AC5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55D4EBE71A2D13A20008AC5F /* CharmBitsTests */ = {
+			isa = PBXGroup;
+			children = (
+				55D4EBEA1A2D13A20008AC5F /* CharmBitsTests.m */,
+				55D4EBE81A2D13A20008AC5F /* Supporting Files */,
+			);
+			path = CharmBitsTests;
+			sourceTree = "<group>";
+		};
+		55D4EBE81A2D13A20008AC5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55D4EBE91A2D13A20008AC5F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55D4EBC71A2D13A20008AC5F /* CharmBits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D4EBEE1A2D13A20008AC5F /* Build configuration list for PBXNativeTarget "CharmBits" */;
+			buildPhases = (
+				55D4EBC41A2D13A20008AC5F /* Sources */,
+				55D4EBC51A2D13A20008AC5F /* Frameworks */,
+				55D4EBC61A2D13A20008AC5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CharmBits;
+			productName = CharmBits;
+			productReference = 55D4EBC81A2D13A20008AC5F /* CharmBits.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55D4EBE31A2D13A20008AC5F /* CharmBitsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D4EBF11A2D13A20008AC5F /* Build configuration list for PBXNativeTarget "CharmBitsTests" */;
+			buildPhases = (
+				55D4EBE01A2D13A20008AC5F /* Sources */,
+				55D4EBE11A2D13A20008AC5F /* Frameworks */,
+				55D4EBE21A2D13A20008AC5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55D4EBE61A2D13A20008AC5F /* PBXTargetDependency */,
+			);
+			name = CharmBitsTests;
+			productName = CharmBitsTests;
+			productReference = 55D4EBE41A2D13A20008AC5F /* CharmBitsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55D4EBC01A2D13A20008AC5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Elizabeth Lin";
+				TargetAttributes = {
+					55D4EBC71A2D13A20008AC5F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					55D4EBE31A2D13A20008AC5F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 55D4EBC71A2D13A20008AC5F;
+					};
+				};
+			};
+			buildConfigurationList = 55D4EBC31A2D13A20008AC5F /* Build configuration list for PBXProject "CharmBits" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55D4EBBF1A2D13A20008AC5F;
+			productRefGroup = 55D4EBC91A2D13A20008AC5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55D4EBC71A2D13A20008AC5F /* CharmBits */,
+				55D4EBE31A2D13A20008AC5F /* CharmBitsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55D4EBC61A2D13A20008AC5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D4EBDA1A2D13A20008AC5F /* Main.storyboard in Resources */,
+				55D4EBDF1A2D13A20008AC5F /* LaunchScreen.xib in Resources */,
+				55D4EBDC1A2D13A20008AC5F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D4EBE21A2D13A20008AC5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D4EBC41A2D13A20008AC5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D4EBD71A2D13A20008AC5F /* SecondViewController.m in Sources */,
+				55D4EBD11A2D13A20008AC5F /* AppDelegate.m in Sources */,
+				55D4EBD41A2D13A20008AC5F /* FirstViewController.m in Sources */,
+				55D4EBCE1A2D13A20008AC5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D4EBE01A2D13A20008AC5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D4EBEB1A2D13A20008AC5F /* CharmBitsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55D4EBE61A2D13A20008AC5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55D4EBC71A2D13A20008AC5F /* CharmBits */;
+			targetProxy = 55D4EBE51A2D13A20008AC5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55D4EBD81A2D13A20008AC5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D4EBD91A2D13A20008AC5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55D4EBDD1A2D13A20008AC5F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55D4EBDE1A2D13A20008AC5F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55D4EBEC1A2D13A20008AC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		55D4EBED1A2D13A20008AC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55D4EBEF1A2D13A20008AC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Elizabeth/Downloads,
+				);
+				INFOPLIST_FILE = CharmBits/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55D4EBF01A2D13A20008AC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Elizabeth/Downloads,
+				);
+				INFOPLIST_FILE = CharmBits/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55D4EBF21A2D13A20008AC5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CharmBitsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CharmBits.app/CharmBits";
+			};
+			name = Debug;
+		};
+		55D4EBF31A2D13A20008AC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CharmBitsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CharmBits.app/CharmBits";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55D4EBC31A2D13A20008AC5F /* Build configuration list for PBXProject "CharmBits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D4EBEC1A2D13A20008AC5F /* Debug */,
+				55D4EBED1A2D13A20008AC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D4EBEE1A2D13A20008AC5F /* Build configuration list for PBXNativeTarget "CharmBits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D4EBEF1A2D13A20008AC5F /* Debug */,
+				55D4EBF01A2D13A20008AC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55D4EBF11A2D13A20008AC5F /* Build configuration list for PBXNativeTarget "CharmBitsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D4EBF21A2D13A20008AC5F /* Debug */,
+				55D4EBF31A2D13A20008AC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55D4EBC01A2D13A20008AC5F /* Project object */;
+}
