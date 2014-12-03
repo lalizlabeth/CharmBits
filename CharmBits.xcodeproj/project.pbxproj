@@ -16,6 +16,7 @@
 		55D4EBDF1A2D13A20008AC5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D4EBDD1A2D13A20008AC5F /* LaunchScreen.xib */; };
 		55D4EBEB1A2D13A20008AC5F /* CharmBitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBEA1A2D13A20008AC5F /* CharmBitsTests.m */; };
 		55D4EBF51A2D13B50008AC5F /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D4EBF41A2D13B50008AC5F /* opencv2.framework */; };
+		55D4EBF91A2D166C0008AC5F /* lesson-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 55D4EBF81A2D166C0008AC5F /* lesson-1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		55D4EBE91A2D13A20008AC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55D4EBEA1A2D13A20008AC5F /* CharmBitsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharmBitsTests.m; sourceTree = "<group>"; };
 		55D4EBF41A2D13B50008AC5F /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../Downloads/opencv2.framework; sourceTree = "<group>"; };
+		55D4EBF61A2D15570008AC5F /* CharmBits-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CharmBits-Prefix.pch"; sourceTree = "<group>"; };
+		55D4EBF81A2D166C0008AC5F /* lesson-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lesson-1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 				55D4EBD81A2D13A20008AC5F /* Main.storyboard */,
 				55D4EBDB1A2D13A20008AC5F /* Images.xcassets */,
 				55D4EBDD1A2D13A20008AC5F /* LaunchScreen.xib */,
+				55D4EBF71A2D16340008AC5F /* Images */,
 				55D4EBCB1A2D13A20008AC5F /* Supporting Files */,
 			);
 			path = CharmBits;
@@ -107,6 +111,7 @@
 			children = (
 				55D4EBCC1A2D13A20008AC5F /* Info.plist */,
 				55D4EBCD1A2D13A20008AC5F /* main.m */,
+				55D4EBF61A2D15570008AC5F /* CharmBits-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -126,6 +131,14 @@
 				55D4EBE91A2D13A20008AC5F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55D4EBF71A2D16340008AC5F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				55D4EBF81A2D166C0008AC5F /* lesson-1.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55D4EBDA1A2D13A20008AC5F /* Main.storyboard in Resources */,
+				55D4EBF91A2D166C0008AC5F /* lesson-1.png in Resources */,
 				55D4EBDF1A2D13A20008AC5F /* LaunchScreen.xib in Resources */,
 				55D4EBDC1A2D13A20008AC5F /* Images.xcassets in Resources */,
 			);

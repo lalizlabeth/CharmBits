@@ -13,10 +13,16 @@
 @end
 
 @implementation FirstViewController
+@synthesize imageView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    // Read the image
+    image = [UIImage imageNamed:@"lesson1.png"];
+    if (image != nil)
+        imageView.image = image;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController {
+    UIImage* image;
+}
 
+@property (nonatomic, weak) IBOutlet UIImageView* imageView;
 
 @end
 
