@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		558298341A37B76A00D90C18 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558298331A37B76A00D90C18 /* opencv2.framework */; };
+		55880CAE1A33D0DA00695399 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55880CAD1A33D0DA00695399 /* Foundation.framework */; };
+		55880CB01A33D0FE00695399 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55880CAF1A33D0FE00695399 /* CoreGraphics.framework */; };
+		55C06AFA1A39610F00DEACBD /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C06AF91A39610F00DEACBD /* 1.png */; };
+		55C06AFC1A39640100DEACBD /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C06AFB1A39640100DEACBD /* topbar.png */; };
+		55C06AFE1A39669900DEACBD /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C06AFD1A39669900DEACBD /* 2.png */; };
+		55C06B001A39675000DEACBD /* launch-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C06AFF1A39675000DEACBD /* launch-screen.png */; };
 		55D4EBCE1A2D13A20008AC5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBCD1A2D13A20008AC5F /* main.m */; };
 		55D4EBD11A2D13A20008AC5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBD01A2D13A20008AC5F /* AppDelegate.m */; };
 		55D4EBD41A2D13A20008AC5F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBD31A2D13A20008AC5F /* FirstViewController.m */; };
@@ -15,7 +22,6 @@
 		55D4EBDC1A2D13A20008AC5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D4EBDB1A2D13A20008AC5F /* Images.xcassets */; };
 		55D4EBDF1A2D13A20008AC5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D4EBDD1A2D13A20008AC5F /* LaunchScreen.xib */; };
 		55D4EBEB1A2D13A20008AC5F /* CharmBitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBEA1A2D13A20008AC5F /* CharmBitsTests.m */; };
-		55D4EBF51A2D13B50008AC5F /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D4EBF41A2D13B50008AC5F /* opencv2.framework */; };
 		55D4EBF91A2D166C0008AC5F /* lesson-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 55D4EBF81A2D166C0008AC5F /* lesson-1.png */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		558298331A37B76A00D90C18 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = "../../../Downloads/iOS-OpenCV-master/opencv2.framework"; sourceTree = "<group>"; };
+		55880CAD1A33D0DA00695399 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55880CAF1A33D0FE00695399 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55C06AF91A39610F00DEACBD /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		55C06AFB1A39640100DEACBD /* topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar.png; sourceTree = "<group>"; };
+		55C06AFD1A39669900DEACBD /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		55C06AFF1A39675000DEACBD /* launch-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch-screen.png"; sourceTree = "<group>"; };
 		55D4EBC81A2D13A20008AC5F /* CharmBits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharmBits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D4EBCC1A2D13A20008AC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55D4EBCD1A2D13A20008AC5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,7 +58,6 @@
 		55D4EBE41A2D13A20008AC5F /* CharmBitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CharmBitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D4EBE91A2D13A20008AC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55D4EBEA1A2D13A20008AC5F /* CharmBitsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharmBitsTests.m; sourceTree = "<group>"; };
-		55D4EBF41A2D13B50008AC5F /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../Downloads/opencv2.framework; sourceTree = "<group>"; };
 		55D4EBF61A2D15570008AC5F /* CharmBits-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CharmBits-Prefix.pch"; sourceTree = "<group>"; };
 		55D4EBF81A2D166C0008AC5F /* lesson-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lesson-1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D4EBF51A2D13B50008AC5F /* opencv2.framework in Frameworks */,
+				558298341A37B76A00D90C18 /* opencv2.framework in Frameworks */,
+				55880CB01A33D0FE00695399 /* CoreGraphics.framework in Frameworks */,
+				55880CAE1A33D0DA00695399 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,10 +83,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5566B7AE1A2FBE640067F7C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				558298331A37B76A00D90C18 /* opencv2.framework */,
+				55880CAD1A33D0DA00695399 /* Foundation.framework */,
+				55880CAF1A33D0FE00695399 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		55D4EBBF1A2D13A20008AC5F = {
 			isa = PBXGroup;
 			children = (
-				55D4EBF41A2D13B50008AC5F /* opencv2.framework */,
 				55D4EBCA1A2D13A20008AC5F /* CharmBits */,
 				55D4EBE71A2D13A20008AC5F /* CharmBitsTests */,
 				55D4EBC91A2D13A20008AC5F /* Products */,
@@ -100,6 +124,7 @@
 				55D4EBD81A2D13A20008AC5F /* Main.storyboard */,
 				55D4EBDB1A2D13A20008AC5F /* Images.xcassets */,
 				55D4EBDD1A2D13A20008AC5F /* LaunchScreen.xib */,
+				5566B7AE1A2FBE640067F7C1 /* Frameworks */,
 				55D4EBF71A2D16340008AC5F /* Images */,
 				55D4EBCB1A2D13A20008AC5F /* Supporting Files */,
 			);
@@ -136,7 +161,11 @@
 		55D4EBF71A2D16340008AC5F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				55C06AFB1A39640100DEACBD /* topbar.png */,
 				55D4EBF81A2D166C0008AC5F /* lesson-1.png */,
+				55C06AF91A39610F00DEACBD /* 1.png */,
+				55C06AFD1A39669900DEACBD /* 2.png */,
+				55C06AFF1A39675000DEACBD /* launch-screen.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -222,9 +251,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				55D4EBDA1A2D13A20008AC5F /* Main.storyboard in Resources */,
+				55C06AFE1A39669900DEACBD /* 2.png in Resources */,
 				55D4EBF91A2D166C0008AC5F /* lesson-1.png in Resources */,
+				55C06AFA1A39610F00DEACBD /* 1.png in Resources */,
+				55C06B001A39675000DEACBD /* launch-screen.png in Resources */,
 				55D4EBDF1A2D13A20008AC5F /* LaunchScreen.xib in Resources */,
 				55D4EBDC1A2D13A20008AC5F /* Images.xcassets in Resources */,
+				55C06AFC1A39640100DEACBD /* topbar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,9 +402,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Elizabeth/Downloads,
+					"/Users/Elizabeth/Downloads/iOS-OpenCV-master",
+				);
+				GCC_PREFIX_HEADER = "CharmBits/CharmBits-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/opt/local/include/**",
 				);
 				INFOPLIST_FILE = CharmBits/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -383,9 +424,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Elizabeth/Downloads,
+					"/Users/Elizabeth/Downloads/iOS-OpenCV-master",
+				);
+				GCC_PREFIX_HEADER = "CharmBits/CharmBits-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/opt/local/include/**",
 				);
 				INFOPLIST_FILE = CharmBits/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -446,6 +495,7 @@
 				55D4EBF01A2D13A20008AC5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55D4EBF11A2D13A20008AC5F /* Build configuration list for PBXNativeTarget "CharmBitsTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +504,7 @@
 				55D4EBF31A2D13A20008AC5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

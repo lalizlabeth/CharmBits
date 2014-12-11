@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @interface FirstViewController ()
 
@@ -14,6 +15,18 @@
 
 @implementation FirstViewController
 @synthesize imageView;
+
+- (IBAction)lesson1 {
+//    UIAlertView *alert = [[UIAlertView alloc]initWithTitle: @"Clicked button 1"
+//                                                   message: @"Alert Message here"
+//                                                  delegate: self
+//                                         cancelButtonTitle:@"Cancel"
+//                                         otherButtonTitles:@"OK",nil];
+//    
+//    [alert setTag:1];
+//    [alert show];
+//    
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
