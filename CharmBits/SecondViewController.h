@@ -14,6 +14,7 @@
 {
 
     __weak IBOutlet UIImageView *cameraView;
+    __weak IBOutlet UISlider *_slider;
     
     AVCaptureSession *_session;
     AVCaptureDevice *_captureDevice;
