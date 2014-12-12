@@ -14,10 +14,11 @@
 		55C06AFC1A39640100DEACBD /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C06AFB1A39640100DEACBD /* topbar.png */; };
 		55C06AFE1A39669900DEACBD /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C06AFD1A39669900DEACBD /* 2.png */; };
 		55C06B001A39675000DEACBD /* launch-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C06AFF1A39675000DEACBD /* launch-screen.png */; };
+		55C06B021A397E5B00DEACBD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C06B011A397E5B00DEACBD /* AVFoundation.framework */; };
 		55D4EBCE1A2D13A20008AC5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBCD1A2D13A20008AC5F /* main.m */; };
 		55D4EBD11A2D13A20008AC5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBD01A2D13A20008AC5F /* AppDelegate.m */; };
 		55D4EBD41A2D13A20008AC5F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBD31A2D13A20008AC5F /* FirstViewController.m */; };
-		55D4EBD71A2D13A20008AC5F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBD61A2D13A20008AC5F /* SecondViewController.m */; };
+		55D4EBD71A2D13A20008AC5F /* SecondViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55D4EBD61A2D13A20008AC5F /* SecondViewController.mm */; };
 		55D4EBDA1A2D13A20008AC5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D4EBD81A2D13A20008AC5F /* Main.storyboard */; };
 		55D4EBDC1A2D13A20008AC5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D4EBDB1A2D13A20008AC5F /* Images.xcassets */; };
 		55D4EBDF1A2D13A20008AC5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D4EBDD1A2D13A20008AC5F /* LaunchScreen.xib */; };
@@ -43,6 +44,7 @@
 		55C06AFB1A39640100DEACBD /* topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar.png; sourceTree = "<group>"; };
 		55C06AFD1A39669900DEACBD /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		55C06AFF1A39675000DEACBD /* launch-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launch-screen.png"; sourceTree = "<group>"; };
+		55C06B011A397E5B00DEACBD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		55D4EBC81A2D13A20008AC5F /* CharmBits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharmBits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D4EBCC1A2D13A20008AC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55D4EBCD1A2D13A20008AC5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,7 +53,7 @@
 		55D4EBD21A2D13A20008AC5F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		55D4EBD31A2D13A20008AC5F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		55D4EBD51A2D13A20008AC5F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		55D4EBD61A2D13A20008AC5F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		55D4EBD61A2D13A20008AC5F /* SecondViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SecondViewController.mm; sourceTree = "<group>"; };
 		55D4EBD91A2D13A20008AC5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55D4EBDB1A2D13A20008AC5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		55D4EBDE1A2D13A20008AC5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -67,9 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558298341A37B76A00D90C18 /* opencv2.framework in Frameworks */,
+				55C06B021A397E5B00DEACBD /* AVFoundation.framework in Frameworks */,
 				55880CB01A33D0FE00695399 /* CoreGraphics.framework in Frameworks */,
 				55880CAE1A33D0DA00695399 /* Foundation.framework in Frameworks */,
+				558298341A37B76A00D90C18 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +89,7 @@
 		5566B7AE1A2FBE640067F7C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55C06B011A397E5B00DEACBD /* AVFoundation.framework */,
 				558298331A37B76A00D90C18 /* opencv2.framework */,
 				55880CAD1A33D0DA00695399 /* Foundation.framework */,
 				55880CAF1A33D0FE00695399 /* CoreGraphics.framework */,
@@ -120,7 +124,7 @@
 				55D4EBD21A2D13A20008AC5F /* FirstViewController.h */,
 				55D4EBD31A2D13A20008AC5F /* FirstViewController.m */,
 				55D4EBD51A2D13A20008AC5F /* SecondViewController.h */,
-				55D4EBD61A2D13A20008AC5F /* SecondViewController.m */,
+				55D4EBD61A2D13A20008AC5F /* SecondViewController.mm */,
 				55D4EBD81A2D13A20008AC5F /* Main.storyboard */,
 				55D4EBDB1A2D13A20008AC5F /* Images.xcassets */,
 				55D4EBDD1A2D13A20008AC5F /* LaunchScreen.xib */,
@@ -275,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D4EBD71A2D13A20008AC5F /* SecondViewController.m in Sources */,
+				55D4EBD71A2D13A20008AC5F /* SecondViewController.mm in Sources */,
 				55D4EBD11A2D13A20008AC5F /* AppDelegate.m in Sources */,
 				55D4EBD41A2D13A20008AC5F /* FirstViewController.m in Sources */,
 				55D4EBCE1A2D13A20008AC5F /* main.m in Sources */,
@@ -401,6 +405,7 @@
 		55D4EBEF1A2D13A20008AC5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -408,6 +413,12 @@
 					/Users/Elizabeth/Downloads,
 					"/Users/Elizabeth/Downloads/iOS-OpenCV-master",
 				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/Users/Elizabeth/Downloads,
+					"/Users/Elizabeth/Downloads/iOS-OpenCV-master",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CharmBits/CharmBits-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -416,13 +427,16 @@
 				);
 				INFOPLIST_FILE = CharmBits/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
 		55D4EBF01A2D13A20008AC5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -430,6 +444,7 @@
 					/Users/Elizabeth/Downloads,
 					"/Users/Elizabeth/Downloads/iOS-OpenCV-master",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CharmBits/CharmBits-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -439,6 +454,7 @@
 				INFOPLIST_FILE = CharmBits/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
