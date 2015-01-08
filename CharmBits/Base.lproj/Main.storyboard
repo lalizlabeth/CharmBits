@@ -28,7 +28,7 @@
                                         </state>
                                         <connections>
                                             <action selector="lesson1" destination="9pv-A4-QxB" eventType="touchUpInside" id="UKQ-ZB-C3m"/>
-                                            <segue destination="526-lh-edS" kind="modal" animates="NO" id="OJN-3J-GhZ"/>
+                                            <segue destination="Z1p-co-Kbz" kind="modal" animates="NO" id="OJN-3J-GhZ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="n43-j3-G6X">
@@ -127,6 +127,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="gbK-cn-qiW" kind="push" id="y6m-aX-zvE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3MJ-O7-oro">
                                 <rect key="frame" x="47" y="25" width="58" height="58"/>
@@ -147,7 +150,309 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GU0-ci-jR8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3614" y="-1765"/>
+            <point key="canvasLocation" x="5250" y="-1909"/>
+        </scene>
+        <!--Story2-P1-->
+        <scene sceneID="N2x-oA-agP">
+            <objects>
+                <viewController id="gbK-cn-qiW" userLabel="Story2-P1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E2c-wf-Sur">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="story-2-2.png" id="eEo-Ws-AdH">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jUL-iM-khY" userLabel="NextButton">
+                                <rect key="frame" x="913" y="116" width="101" height="591"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wXf-Mq-TeD" kind="push" id="Exh-ON-yyJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fjz-Jz-b5Y" userLabel="Home">
+                                <rect key="frame" x="47" y="25" width="58" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9pv-A4-QxB" kind="modal" animates="NO" id="xt7-Bt-ZSn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6aS-D9-rN0" userLabel="BackButton">
+                                <rect key="frame" x="4" y="124" width="101" height="591"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Z1p-co-Kbz" kind="push" id="7ve-Ml-w86"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OEq-e9-nDQ"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qda-og-FnQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7590" y="-1909"/>
+        </scene>
+        <!--Story2-P2-->
+        <scene sceneID="ak4-Qo-S4O">
+            <objects>
+                <viewController id="wXf-Mq-TeD" userLabel="Story2-P2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ijH-jE-ovz">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="story-2-3.png" id="WD7-YD-rDm">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2xc-Qc-Tcm" userLabel="NextButton">
+                                <rect key="frame" x="913" y="116" width="101" height="591"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gKk-OK-J4e" kind="push" id="Yd0-Qp-dq2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Cyi-QP-OI9" userLabel="Home">
+                                <rect key="frame" x="47" y="25" width="58" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9pv-A4-QxB" kind="modal" animates="NO" id="ebb-Ac-Hii"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gH4-WN-qwe" userLabel="BackButton">
+                                <rect key="frame" x="4" y="124" width="101" height="591"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yQc-oR-1mZ"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vRA-Al-flO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5118" y="-945"/>
+        </scene>
+        <!--Story2-P3-->
+        <scene sceneID="Cyl-i1-szN">
+            <objects>
+                <viewController id="gKk-OK-J4e" userLabel="Story2-P3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lxe-Eg-UGp">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="story-2-4.png" id="q3p-jx-SLj">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cOa-eA-IPA" userLabel="NextButton">
+                                <rect key="frame" x="913" y="116" width="101" height="591"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fK3-Vh-X3F" kind="push" id="d3Z-9Q-JFa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cp0-La-tLw" userLabel="Home">
+                                <rect key="frame" x="47" y="25" width="58" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9pv-A4-QxB" kind="modal" animates="NO" id="tj9-O7-wni"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Wl3-oq-lzz" userLabel="BackButton">
+                                <rect key="frame" x="4" y="124" width="101" height="591"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wXf-Mq-TeD" kind="push" id="2qf-O9-cLV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hDh-z3-G7a"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xBe-b9-JdA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5118" y="35"/>
+        </scene>
+        <!--Story2-P4-->
+        <scene sceneID="FfC-d0-dQA">
+            <objects>
+                <viewController id="fK3-Vh-X3F" userLabel="Story2-P4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jRp-U2-lj8">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="story-2-5.png" id="g6l-hG-q7T">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="00h-UM-Zly" userLabel="NextButton">
+                                <rect key="frame" x="913" y="116" width="101" height="591"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="IFF-Nc-Zqc" kind="push" id="sCZ-To-rcW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YgZ-KQ-TIe" userLabel="Home">
+                                <rect key="frame" x="47" y="25" width="58" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9pv-A4-QxB" kind="modal" animates="NO" id="MsP-hu-sRN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6SX-fg-e3Q" userLabel="BackButton">
+                                <rect key="frame" x="4" y="124" width="101" height="591"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gKk-OK-J4e" kind="push" id="NXM-hR-oez"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GTt-Nn-cet"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mR0-yV-IOc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5118" y="943"/>
+        </scene>
+        <!--Story2-P5-->
+        <scene sceneID="H1o-3s-h53">
+            <objects>
+                <viewController id="IFF-Nc-Zqc" userLabel="Story2-P5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GgM-Ig-9Gw">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="story-2-6.png" id="14j-2x-ro6">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Sku-kd-mIX" userLabel="BackButton">
+                                <rect key="frame" x="4" y="124" width="101" height="591"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fK3-Vh-X3F" kind="push" id="EbF-h2-Xub"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1uG-jC-fEn" userLabel="Home">
+                                <rect key="frame" x="47" y="25" width="58" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9pv-A4-QxB" kind="modal" animates="NO" id="VDa-GN-Hcv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="z1t-i4-dZk" userLabel="NextButton">
+                                <rect key="frame" x="467" y="496" width="385" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sfF-X2-jSQ" kind="push" id="hHe-rc-ySi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zyM-VO-2tm"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jJ2-FT-ynQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5118" y="1855"/>
+        </scene>
+        <!--Story2-P6-->
+        <scene sceneID="t3U-K1-Q9P">
+            <objects>
+                <viewController id="sfF-X2-jSQ" userLabel="Story2-P6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hqP-Ji-HAF">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="story-2-7.png" id="jWj-b2-N5c">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mqK-hO-za4" userLabel="Home">
+                                <rect key="frame" x="47" y="25" width="58" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="srm-UB-zqD">
+                                <rect key="frame" x="148" y="644" width="325" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9pv-A4-QxB" kind="modal" id="nsO-kJ-O4J"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fB3-wf-fbR"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hvd-Y9-zCE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5110" y="2779"/>
         </scene>
         <!--Story1-P1-->
         <scene sceneID="Fcf-bH-hKI">
@@ -168,7 +473,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="rHW-ua-588" kind="push" id="2iu-qd-eFn"/>
+                                    <segue destination="48O-1c-ce7" kind="push" id="Q2R-V4-dfr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f1b-c1-jUK" userLabel="NextButton">
@@ -432,6 +737,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="9pv-A4-QxB" kind="modal" animates="NO" id="uNH-Wt-36i"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aln-fP-M1c" userLabel="BackButton">
                                 <rect key="frame" x="524" y="635" width="395" height="87"/>
@@ -449,9 +757,6 @@
                     <navigationItem key="navigationItem" id="2r5-zd-avG"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <connections>
-                        <segue destination="9pv-A4-QxB" kind="modal" animates="NO" id="KTT-fn-JhA"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d7l-5v-aGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -794,7 +1099,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="g7y-PA-ezV" kind="modal" animates="NO" id="Rhh-kO-tKY"/>
+                                    <segue destination="nt4-es-EH7" kind="modal" id="1fI-46-B56"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -915,6 +1220,26 @@
             </objects>
             <point key="canvasLocation" x="2430" y="-81"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Zjw-1G-lQR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Z1p-co-Kbz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="mgN-4S-89i"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="T7p-Uh-4PC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="526-lh-edS" kind="relationship" relationship="rootViewController" id="ehp-RA-SDi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uuU-vr-HQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4014" y="-1909"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1.png" width="2048" height="1536"/>
@@ -938,6 +1263,12 @@
         <image name="option-3.png" width="798" height="140"/>
         <image name="second" width="30" height="30"/>
         <image name="story-2-1.png" width="2048" height="1536"/>
+        <image name="story-2-2.png" width="2048" height="1536"/>
+        <image name="story-2-3.png" width="2048" height="1536"/>
+        <image name="story-2-4.png" width="2048" height="1536"/>
+        <image name="story-2-5.png" width="2048" height="1536"/>
+        <image name="story-2-6.png" width="2048" height="1536"/>
+        <image name="story-2-7.png" width="2048" height="1536"/>
         <image name="submit-btn.png" width="549" height="135"/>
         <image name="topbar.png" width="2062" height="230"/>
     </resources>
@@ -947,16 +1278,21 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="2iu-qd-eFn"/>
+        <segue reference="EbF-h2-Xub"/>
+        <segue reference="NXM-hR-oez"/>
+        <segue reference="0TQ-1j-Hb4"/>
+        <segue reference="zcL-NE-Whg"/>
+        <segue reference="1fI-46-B56"/>
+        <segue reference="YLE-5Z-UPU"/>
+        <segue reference="pca-bY-A5T"/>
+        <segue reference="Xj1-nx-nSJ"/>
+        <segue reference="7ve-Ml-w86"/>
+        <segue reference="Exh-ON-yyJ"/>
+        <segue reference="1D1-OO-UlO"/>
         <segue reference="Uvl-MM-jFc"/>
+        <segue reference="Q2R-V4-dfr"/>
         <segue reference="TtB-8p-9SL"/>
         <segue reference="dxr-Jc-FFW"/>
         <segue reference="mrN-cE-tIw"/>
-        <segue reference="5wm-pl-o71"/>
-        <segue reference="aWj-7l-YdB"/>
-        <segue reference="Dcz-yD-uNq"/>
-        <segue reference="0TQ-1j-Hb4"/>
-        <segue reference="ile-8B-gt0"/>
-        <segue reference="YLE-5Z-UPU"/>
     </inferredMetricsTieBreakers>
 </document>
